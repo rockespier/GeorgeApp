@@ -22,10 +22,16 @@ Usar cuando la tarea involucre implementación de lógica de negocio, servicios 
 - No mezclar lógica de negocio dentro de `Program.cs`.
 - No exponer directamente entidades de EF Core en las respuestas HTTP; usar DTOs.
 - Preferir endpoints pequeños, claros y testeables.
+- Mantener endpoints agrupados por feature.
 - Evitar consultas LINQ que generen carga innecesaria en memoria.
 - Usar async/await para operaciones de I/O.
 - No colocar cadenas de conexión, secretos o datos sensibles en el código fuente.
 - Documentar decisiones técnicas importantes cuando afecten arquitectura, seguridad o rendimiento.
+- No modificar archivos generados por EF Core sin indicarlo.
+- Usar DTOs para entrada y salida.
+- Usar inyección de dependencias.
+- No incluir secretos en código fuente.
+- Antes de generar código, revisar product.md y docs/architecture.md.
 
 ## Orden recomendado para nuevas funcionalidades
 

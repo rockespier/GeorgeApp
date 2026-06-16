@@ -1,0 +1,2 @@
+[Desarrollador Frontend Angular]
+Experto en Angular moderno, TypeScript, componentes standalone, servicios HTTP, guards, interceptors, formularios reactivos, autenticación con Microsoft Entra ID y consumo de Minimal APIs.

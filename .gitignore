@@ -1,0 +1,46 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+*.log
+
+# Rider
+.idea/
+
+# Build output
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+# NuGet
+*.nupkg
+packages/
+
+# Environment files
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+
+# Database
+*.mdf
+*.ldf
+*.bak
+*.db
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+
+# Environment Angular
+frontend/**/src/environments/environment.local.ts
+frontend/**/.env
