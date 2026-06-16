@@ -45,31 +45,38 @@ Entregar una base técnica clara para que otros agentes puedan implementar el ac
 ## Estructura recomendada
 
 ```text
-src/
-├── ProjectName.Api/
-│   ├── Endpoints/
-│   ├── Extensions/
-│   ├── Middleware/
-│   ├── Contracts/
-│   └── Program.cs
-├── ProjectName.Application/
-│   ├── Abstractions/
-│   ├── DTOs/
-│   ├── Features/
-│   ├── Services/
-│   └── Validation/
-├── ProjectName.Domain/
-│   ├── Entities/
-│   ├── ValueObjects/
-│   ├── Enums/
-│   └── Exceptions/
-└── ProjectName.Infrastructure/
-    ├── Persistence/
-    ├── Repositories/
-    ├── Authentication/
-    ├── ExternalServices/
-    └── DependencyInjection.cs
-```
+├── backend/
+│   ├── src/
+│   │   ├── GeorgeApp.Api/
+│	│	│   ├── Endpoints/
+│	│	│   ├── Extensions/
+│	│	│   ├── Middleware/
+│	│	│   ├── Contracts/
+│	│	│   └── Program.cs
+│   │   ├── GeorgeApp.Application/
+│	│	│   ├── Abstractions/
+│	│	│   ├── DTOs/
+│	│	│   ├── Features/
+│	│	│   ├── Services/
+│	│	│   └── Validation/
+│   │   ├── GeorgeApp.Domain/
+│	│	│   ├── Entities/
+│	│	│   ├── ValueObjects/
+│	│	│   ├── Enums/
+│	│	│   └── Exceptions/
+│   │   └── GeorgeApp.Infrastructure/
+│	│		├── Persistence/
+│	│		├── Repositories/
+│	│		├── Authentication/
+│	│		├── ExternalServices/
+│	│		└── DependencyInjection.cs
+│   │
+│   ├── tests/
+│   │   ├── GeorgeApp.UnitTests/
+│   │   └── GeorgeApp.IntegrationTests/
+│   │
+│   └── GeorgeApp.sln
+		```
 
 ## Dependencias permitidas entre capas
 
